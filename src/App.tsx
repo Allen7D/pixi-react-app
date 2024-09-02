@@ -1,23 +1,20 @@
 import { BlurFilter } from 'pixi.js';
-import { Stage, Container, Sprite, Text } from '@pixi/react';
+import { Container, Sprite, Text } from '@pixi/react';
 import { useMemo } from 'react';
 
 const App = () => {
   const blurFilter = useMemo(() => new BlurFilter(4), []);
-
   return (
-    <Stage options={{ background: 0xffffff }}>
+    <Container x={400} y={330}>
       <Sprite
         image="https://pixijs.io/pixi-react/img/bunny.png"
-        x={400}
-        y={270}
+        x={0}
+        y={0}
         anchor={{ x: 0.5, y: 0.5 }}
       />
 
-      <Container x={400} y={330}>
-        <Text text="Hello World" anchor={{ x: 0.5, y: 0.5 }} filters={[blurFilter]} />
-      </Container>
-    </Stage>
+      <Text text="Hello World" anchor={{ x: 0.5, y: 0.5 }} filters={[blurFilter]} />
+    </Container>
   );
 };
 export default App
