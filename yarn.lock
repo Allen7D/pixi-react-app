@@ -458,6 +458,11 @@
     "@pixi/ticker" "7.4.2"
     "@pixi/utils" "7.4.2"
 
+"@pixi/devtools@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.npmmirror.com/@pixi/devtools/-/devtools-2.0.1.tgz#eb0c304f88973e5a2d34c8f0919c96e306a07749"
+  integrity sha512-TFCqNkJoLNYHDELgQ3bKWvA33twWpoUhQB8Y+hneBdDBunRsqZ5ZzwH7+6E5eVaVn7eeLAXHs9QGRGsxM0fRlw==
+
 "@pixi/display@7.4.2":
   version "7.4.2"
   resolved "https://registry.npmmirror.com/@pixi/display/-/display-7.4.2.tgz#f0b7db822fba80cd2e8c28f6f489244360a578ba"

@@ -12,7 +12,6 @@ const App = () => {
         y={0}
         anchor={{ x: 0.5, y: 0.5 }}
       />
-
       <Text text="Hello World" anchor={{ x: 0.5, y: 0.5 }} filters={[blurFilter]} />
     </Container>
   );
